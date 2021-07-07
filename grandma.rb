@@ -1,4 +1,18 @@
 # Write a speak_to_grandma method.
+def speak_to_grandma(phase)
+  if phase == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  elsif phase == "Hi Nana, how are you?"
+    return "HUH?! SPEAK UP, SONNY!"
+  elsif phase == "Hi!"
+    return "HUH?! SPEAK UP, SONNY!"
+  else 
+  # else statement doesn't need a argument 
+    return "NO, NOT SINCE 1938!"
+  end
+end
+
+
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
